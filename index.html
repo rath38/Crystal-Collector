@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<body>
+<div id="body-container" class="container-fluid">
+	
+	<div class="row">
+		<div  id="header" class="col-md-4">
+			<h1>Crystal Collectors</h1>
+		</div>
+	</div>		
+
+
+
+	<div class="row">
+		<div id="instructions" class="col-md-6">
+		
+			<p>You will be givin a random number at the start of the game.</p>
+		
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	
+			<p>You win the game by matching your total score to random number,you lose the game if your total score goes above the random number.</p>
+
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+
+			<p>Each time when the game starts, the game will change the values of each crstal.</p>
+
+		</div>
+	</div>
+
+	
+	<div class="row">
+		
+		<div id="randomNumber" class="col-md-2">
+			<span>0</span>	
+		</div>
+
+		<div id="winLoss" class="col-md-1">
+			
+			<p> Wins: <span id="wins"></span></p>
+
+			<p> Loses: <span id="lose"></span></p>
+
+		</div>
+
+	</div>
+	
+	<div class="row">
+		
+		<div class="col-md-1">
+			<img  id="ruby" src="assets/images/ruby.jpg" height="150px" width="150px">
+		</div>
+
+		<div class="col-md-1">
+			<img  id="diamond" src="assets/images/diamond.jpeg" height="150px" width="150px">
+		</div>		
+		
+		<div class="col-md-1">
+			<img id="topaz" src="assets/images/topaz.jpg" height="150px" width="150px">
+		</div>
+
+		<div class="col-md-1">
+			<img id="emerald" src="assets/images/emerald.jpg" height="150px" width="150px">
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div  id="totalText" class="col-md-2">
+			<p>Your total score is </p>	
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="totalNumber" class="col-md-2">
+			<span id="score">0</span>	
+		</div>
+	</div>
+
+
+<div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

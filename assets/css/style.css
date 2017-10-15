@@ -1,0 +1,48 @@
+#body-container {
+	background-image: url(../images/vintage-concrete.png);
+}
+
+
+
+#header {
+	background: orange ;
+	color: white;
+}
+
+#instructions{
+	color: green ;
+	background: white;
+	margin: 10px 0 10px 0;
+	padding: 20px 0 80px 0
+}
+
+#randomNumber{
+color: black;
+background: green;
+padding-bottom: 60px;
+margin: 5px 0 5px 0; 
+
+
+}
+
+#winLoss{
+color: black;
+background: lightblue;
+margin: 5px 0 5px 5px;
+padding-bottom: 20px;
+
+}
+
+#totalText{
+	margin-top: 10px;
+	color: white ;
+	background: blue;
+}
+
+#totalNumber{
+color: white;
+background: blue ;
+margin-top: 10px;
+padding-bottom: 60px;
+margin-bottom: 50px;
+}
