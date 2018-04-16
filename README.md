@@ -1,6 +1,6 @@
 # Crystal Collector
 
-Cystal Collector is game made with Bootstrap and jQuery, in which there are 4 crystals each with a randomly generated number.Each time you click on a crystal that number is added to a total.To win the game your total must equal the total of a randomly generated number given at the start of the game. 
+Crystal Collector is a game made with Bootstrap and jQuery, in which there are 4 crystals, each with a randomly generated number. Each time you click on a crystal, that number is added to a total. To win the game, your total must equal the total of a randomly generated number given at the start of the game. 
 
 
 ## Prerequisites
